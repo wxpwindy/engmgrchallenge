@@ -1,0 +1,14 @@
+ Build
+build/
+out/
+
+# Gradle
+.gradle/
+.gradletasknamecache
+
+# IDE
+*.iml
+.idea/
+
+# OS
+.DS_Store
