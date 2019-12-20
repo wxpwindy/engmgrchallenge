@@ -1,2 +1,0 @@
-# engmgrchallenge
-eng mgr challenge
