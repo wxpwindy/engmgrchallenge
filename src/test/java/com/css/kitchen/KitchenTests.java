@@ -19,7 +19,7 @@ public class KitchenTests {
 
   private final Order order1 = new Order("order 1", Order.Type.HOT, 20, 0.5);
   private final Order order2 = new Order("order 2", Order.Type.COLD, 20, 0.5);
-  private final Order order3 = new Order("order 3", Order.Type.HOT, 20, 0.5);
+  private final Order order3 = new Order("order 3", Order.Type.HOT, 20, 0.5);//order 3-6 are exactly same , consider refine
   private final Order order4 = new Order("order 4", Order.Type.HOT, 20, 0.5);
   private final Order order5 = new Order("order 5", Order.Type.HOT, 20, 0.5);
   private final Order order6 = new Order("order 6", Order.Type.HOT, 20, 0.5);
