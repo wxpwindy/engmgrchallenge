@@ -30,7 +30,7 @@ public class Shelf {
   @Nullable Callback callback;
 
   /** The number of orders that have been marked as picked up but have not been removed yet. */
-  private int numPickedUp;
+  private int numPickedUp=0;//Issue & bugs: numPickedUp was not intialized, now initial to 0
 
   public Shelf(
       String name,

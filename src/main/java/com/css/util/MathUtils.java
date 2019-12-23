@@ -5,9 +5,17 @@ public class MathUtils {
 
   private MathUtils() {}
 
-  // TODO
+  
   /** @return a Possion random number with mean value {@code mean}. */
   public static int generatePoissonNumber(double mean) {
-    return 1;
+     Random r = new Random();
+    double L = Math.exp(-mean);
+    int k = 0;
+    double p = 1.0;
+    do {
+      p = p * r.nextDouble();
+      k++;
+    } while (p > L);
+    return k - 1;
   }
 }
